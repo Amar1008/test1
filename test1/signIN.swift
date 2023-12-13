@@ -6,14 +6,30 @@
 //
 
 import UIKit
+import AVKit
+import Firebase
+import FirebaseStorage
 
-class signIN: UIViewController {
+class signIN: UIViewController,UITableViewDelegate,UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    
 
+    
+ var array:[String] = []
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         // Do any additional setup after loading the view.
     }
+    
+    
     
 
     /*
